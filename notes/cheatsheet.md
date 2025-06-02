@@ -20,15 +20,11 @@ from sklearn.linear_model import LinearRegression
 import altair as alt                                # Alternative visualisation system
 ```
 
-## [H1 - Samples](./Pythat0n/H1.md)
+## [H: Samples](../notes/H1-notes.md)
 
----
+## [H2: Analyse van 1 variabele](../notes/H2-notes.md)
 
-## [H2 - Analyse van 1 variabele](./Pythat0n/H2.md)
-
----
-
-## [H3](./Pythat0n/H3.md)
+## [H3: CLT](.../notes/H3-notes.md)
 
 **Student $t$-distribution in Python**  
 Import scipy.stats  
@@ -75,9 +71,9 @@ Requirements z-test:
 
 indien 1 van deze niet voldaan is gebruik je de t-test en deze normaal verdeeld is
 
-## ![Alt text](type-i-and-type-ii-error.png)
+## ![Alt text](../images/type-i-and-type-ii-error.png)
 
-## [H4 -> 2 kwalitatieve variabelen](./Pythat0n/H4.md)
+## [H4: 2 kwalitatieve variabelen](../notes/H4-notes.md)
 
 H0 -> er is **geen** verband tussen de 2 variabelen
 H1 -> er is **een** verband tussen de 2 variabelen
@@ -88,9 +84,7 @@ Cramér's V meet de sterkte van deze associatie
 
 en de goodness-of-fit test controleert of de waargenomen frequenties overeenkomen met de verwachte theoretische verdeling.
 
----
-
-## [H5 -> 1 kalitatieve variabele en 1 kwantitatieve variabelen](./Pythat0n/H5.md)
+## [H5: 1 kalitatieve variabele en 1 kwantitatieve variabelen](../notes/H5-notes.md)
 
 Use the t-test for independence when comparing the means of two independent groups or conditions.
 
@@ -109,9 +103,7 @@ Use Cohen's d as a measure of effect size to interpret the practical significanc
 
 - Effectgrote -> hoe groot is het verschil tussen de 2 groepen
 
----
-
-## [H6 -> 2 kwantitatieve variabelen](./Pythat0n/H6.md)
+## [H6: 2 kwantitatieve variabelen](../notes/H6-notes.md)
 
 dependend variable -> y
 independend variable -> x
@@ -124,16 +116,14 @@ Use the correlation coefficient when you want to measure the strength and direct
 - r -> 1 -> positieve correlatie -> alle punten liggen op 1 lijn stijgend
 - r -> -1 -> negatieve correlatie -> alle punten liggen op 1 lijn dalend
 
-![Alt text](3-s2.0-B9780128013632000097-f09-09-9780128013632.jpg)
+![Alt text](../images/H6_correlation_coefficient.jpg)
 
 Use the coefficient of determination (R-squared) to assess the model fit, compare models, and interpret the proportion of variance explained by the independent variables.
 
 - r² -> 0 -> zwakke correlatie
 - r² -> 1 -> sterke correlatie
 
----
-
-## [H7 -> time series](./Pythat0n/H7.md)
+## [H7: time series](../notes/H7-notes.md)
 
 - moving averages
   - simple moving average
@@ -147,4 +137,4 @@ Use the coefficient of determination (R-squared) to assess the model fit, compar
   - triple exponential smoothing -> Holt-Winters method
     - trend en seasonality
 
-![Alt text](forecastprofile.png)
+![Alt text](../images/forecastprofile.png)
