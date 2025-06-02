@@ -180,3 +180,4 @@ def calculate_stdres(contingency_table):
   - Contingency table -> 2x2
   - Alle expected values > 1
   - minstens 20% expected values > 5
+  
