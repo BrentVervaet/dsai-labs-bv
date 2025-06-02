@@ -2,6 +2,8 @@
 
 ```py
 # Importing the necessary packages
+# use snippet (⇧+⌘+P) dsimp
+
 import numpy as np                                  # "Scientific computing"
 import scipy.stats as stats                         # Statistical tests
 
