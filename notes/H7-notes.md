@@ -23,17 +23,17 @@
 
 ### simple moving average - SMA
 
-    ```py
-    # simple moving average
-    data['SMA3'] = data['Close'].rolling(window=3).mean()
-    data['SMA5'] = data['Close'].rolling(window=5).mean()
-    data['SMA10'] = data['Close'].rolling(window=10).mean()
+```py
+# simple moving average
+ data['SMA3'] = data['Close'].rolling(window=3).mean()
+data['SMA5'] = data['Close'].rolling(window=5).mean()
+data['SMA10'] = data['Close'].rolling(window=10).mean()
 
-    # Simple moving average with shift -> to predict the future je zet ze een rij naar onder op de plek waar dit de predictie is voor die dag bv
-    data['SMA3_forecast'] = data['Close'].rolling(3).mean().shift(1)
-    data['SMA5_forecast'] = data['Close'].rolling(5).mean().shift(1)
-    data['SMA10_forecast'] = data['Close'].rolling(10).mean().shift(1)
-    ```
+# Simple moving average with shift -> to predict the future je zet ze een rij naar onder op de plek waar dit de predictie is voor die dag bv
+data['SMA3_forecast'] = data['Close'].rolling(3).mean().shift(1)
+data['SMA5_forecast'] = data['Close'].rolling(5).mean().shift(1)
+data['SMA10_forecast'] = data['Close'].rolling(10).mean().shift(1)
+```
 
 ### weighted moving average -> recentere data krijgt meer gewicht
 
