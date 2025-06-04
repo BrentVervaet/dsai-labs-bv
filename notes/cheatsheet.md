@@ -20,7 +20,7 @@ from sklearn.linear_model import LinearRegression
 import altair as alt                                # Alternative visualisation system
 ```
 
-## [H: Samples](../notes/H1-notes.md)
+## [H1: Samples](../notes/H1-notes.md)
 
 ## [H2: Analyse van 1 variabele](../notes/H2-notes.md)
 
