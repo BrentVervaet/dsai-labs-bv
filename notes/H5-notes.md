@@ -73,5 +73,25 @@ def cohen_d(a, b):
                           (nb-1) * b.std(ddof=1)**2) / (na + nb - 2) )
     return (b.mean() - a.mean()) / pooled_sd
 
-cohen_d(before, after)
+cohend = cohen_d(before, after)
+
+print("Cohen's d: ",cohend)
+
+# Interpretation thresholds
+if cohend < 0.01:
+    interpretation = "Negligible"
+elif cohend < 0.2:
+    interpretation = "Very small"
+elif cohend < 0.5:
+    interpretation = "Small"
+elif cohend < 0.8:
+    interpretation = "Average"
+elif cohend < 1.2:
+    interpretation = "Large"
+elif cohend < 2.0:
+    interpretation = "Very large"
+else:
+    interpretation = "Huge"
+
+print(f"-> {interpretation} effect size")
 ```
