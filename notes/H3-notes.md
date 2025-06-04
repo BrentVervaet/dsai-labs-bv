@@ -137,11 +137,30 @@ indien 1 van deze niet voldaan is gebruik je de t-test en deze normaal verdeeld 
 
 ### right-tailed
 
+**Step 1.** Formulate the hypotheses:
+
+- $H_0: \mu = 20$
+- $H_1: \mu > 20$
+
+**Step 2.** Choose a significance level, e.g. $\alpha = 0.05$
+
+**Step 3.** Determine the value of the test statistic, in this case $\overline{x} = 20.2$
+
+**Step 4.** Determine the $p$-value and reject $H_0$ if $p < \alpha$.
+
+**Step 5** Draw conclusions NOT REJECT
+
+We can conclude that there is not enough evidence to reject the null hypothesis
+
+**Step 5** Draw conclusions REJECT
+
+We can conclude that if we assume that  $H_0$  is true, the probability to draw a sample from this population with this particular value for  $\bar{x}$  is very small indeed. With the chosen significance level, we can reject the null hypothesis.
+
 ```py
 ## RIGHT TAIL Z-TEST
 #Step 1: formulate the null and alternative hypotheses
-#- H0: μ = 100
-#- H1: μ > 100
+#- H0: μ = 20
+#- H1: μ > 20
 
 #Step 2: specify the significance level
 # Properties of the sample:
@@ -198,6 +217,25 @@ else:
 ```
 
 ### left-tailed
+
+**Step 1.** Formulate the hypotheses:
+
+- $H_0: \mu = 20$
+- $H_1: \mu > 20$
+
+**Step 2.** Choose a significance level, e.g. $\alpha = 0.05$
+
+**Step 3.** Determine the value of the test statistic, in this case $\overline{x} = 20.2$
+
+**Step 4.** Determine the $p$-value and reject $H_0$ if $p < \alpha$.
+
+**Step 5** Draw conclusions NOT REJECT
+
+We can conclude that there is not enough evidence to reject the null hypothesis
+
+**Step 5** Draw conclusions REJECT
+
+We can conclude that if we assume that  $H_0$  is true, the probability to draw a sample from this population with this particular value for  $\bar{x}$  is very small indeed. With the chosen significance level, we can reject the null hypothesis.
 
 ```py
 ## LEFT TAIL Z-TEST
