@@ -76,10 +76,10 @@ observed = pd.crosstab(rlanders.Survey, rlanders.Gender)
 chi2, p, df, expected = stats.chi2_contingency(observed)
 alpha = .05
 
-print(f"Chi2: {chi2:.4f}, p-value: {p:.4f}, dof: {dof}")
+print(f"Chi2: {chi2:.4f}, p-value: {p:.4f}, dof: {df}")
 
 # Calculate critical value
-g = stats.chi2.isf(alpha, df = dof)
+g = stats.chi2.isf(alpha, df = df)
 print(f"Critical value: {g:.4f}, alpha: {alpha:.4f}")
 
 # Check if we can reject the null hypothesis (p-value & alpha)
