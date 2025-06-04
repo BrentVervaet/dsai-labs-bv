@@ -43,3 +43,9 @@ cor = np.corrcoef(cats.Hwt, cats.Bwt)[0][1]
 print(f"R = { cor }")
 print(f"R² = {cor ** 2}")
 ```
+
+### Voorbeeld conclusie
+
+- R > 0 => stijgend verband
+- |R| ≈ 0.8 => sterk verband
+- R^2 ≈ 0.64 => 64% van de variantie in Bwt wordt verklaard door Hwt
