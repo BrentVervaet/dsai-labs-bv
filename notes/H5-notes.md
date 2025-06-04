@@ -16,6 +16,14 @@ treatment = np.array([101, 110, 103, 93, 99, 104])
 
 stats.ttest_ind(a=control, b=treatment,
     alternative='less', equal_var=False)
+
+print(f"T-statistic = {result.statistic}, p-value = {result.pvalue}")
+
+if result.pvalue < 0.05:
+    print("Since p < 0.05, we reject the null hypothesis: x scores are significantly lower than y.")
+else:
+    print("Since p ≥ 0.05, we do not reject the null hypothesis: no significant difference between x and y.")
+
 ```
 
 ## The t-test for paired samples (paired t-test)
@@ -39,6 +47,18 @@ after = np.array([19, 22, 24, 24, 25, 25, 26, 26, 28, 32])
 
 # Paired t-test with ttest_rel() -> vergeet niet alternative='less' of 'greater' of 'two-sided'
 stats.ttest_rel(before, after, alternative='less')
+
+from scipy import stats
+
+result = stats.ttest_rel(cans.AO, cans.AN, alternative='less')
+
+print(f"T-statistic = {result.statistic}, p-value = {result.pvalue}")
+
+if result.pvalue < 0.05:
+    print("Since p < 0.05, we reject the null hypothesis: x scores are significantly lower than y.")
+else:
+    print("Since p ≥ 0.05, we do not reject the null hypothesis: no significant difference between x and y.")
+
 ```
 
 ## Cohen's d
