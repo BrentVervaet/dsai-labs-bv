@@ -3,7 +3,7 @@
 ## Central Limit Theorem (CLT) en gerelateerde tests
 
 Het Centraal Limiet Theorema (CLT) stelt dat de som van een groot aantal onafhankelijke willekeurige variabelen ongeveer normaal verdeeld is. Hoe groter de steekproef, hoe beter de benadering. Bij de CLT is de standaardafwijking voor de steekproefverdeling gelijk aan de standaardafwijking van de populatie gedeeld door de wortel van de steekproefgrootte (sigma / sqrt(n)). De normale verdeling speelt hierbij een belangrijke rol.
-•
+
 ### Z-test
 
 Gebruik de z-test als aan de volgende vereisten voldaan is:
@@ -18,6 +18,7 @@ Gebruik de z-test als aan de volgende vereisten voldaan is:
 De t-test wordt gebruikt als één van de vereisten voor de z-test niet voldaan is (behalve de normaliteitsvereiste). Dit omvat situaties met kleine steekproeven of wanneer de populatie standaarddeviatie onbekend is. De t-test maakt gebruik van de Student $t$-distributie. Net als de z-test kan de t-test right-tailed, left-tailed of two-tailed zijn. Confidence intervals voor kleine steekproeven gebruiken de Student t-test.
 
 #### Confidence Intervals
+
 Een confidence interval geeft een interval aan waarin de parameter met een bepaalde kans ligt. Voor grote steekproeven worden andere methoden gebruikt dan voor kleine steekproeven (Student t test).
 
 ## Bivariate - Kwalitatieve variabelen (Analyse van 2 kwalitatieve variabelen)
