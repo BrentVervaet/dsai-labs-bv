@@ -53,7 +53,7 @@ Deze worden gebruikt om te kijken of een sample overrepresentatief is voor een b
 
 Dit betreft het vergelijken van een kwantitatieve variabele tussen groepen gedefinieerd door een kwalitatieve variabele.
 
-### T-test voor onafhankelijke samples (two-sample t-test)
+### Independent t-test (two-sample t-test)
 
 Gebruik deze test wanneer je de gemiddelden van twee onafhankelijke groepen of condities vergelijkt.
 
@@ -61,7 +61,7 @@ Gebruik deze test wanneer je de gemiddelden van twee onafhankelijke groepen of c
 - Het doel is het vergelijken van het gemiddelde van 2 groepen die niet perse even groot hoeven te zijn.
 - Een voorbeeld is het vergelijken van het gemiddelde tussen een groep met een placebo en een groep met medicijn.
 
-### Paired t-test
+### Paired t-test (two-sample t-test)
 
 Gebruik deze test bij het analyseren van gepaarde of gematchte observaties om gemiddelden te vergelijken binnen dezelfde groep onder verschillende condities of tijdstippen.
 
